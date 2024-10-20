@@ -3,14 +3,15 @@
 
 }
 body{
-    color: white;
-    background-color: black;
+    color: rgb(102, 222, 233);
+    background-color: rgb(43, 25, 25);
 }
 .head{
     margin: 15px;
     display: flex;
-    background-color: rgb(183, 226, 43);
+    background-color: rgb(74, 91, 30);
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: fixed;
     top: 0;
@@ -25,7 +26,7 @@ body{
      text-align: center;
      padding: 10px;
      margin-top: 15px;
-     font-weight: 800;
+     font-weight: bolder;
 }
 .margin{
     margin: 100px;
@@ -43,6 +44,7 @@ ul li{
     list-style: none;
     padding: 4px;
     margin: 15px 5px;   
+    cursor: pointer;
 }
 ul li a{
     text-decoration: none;   
@@ -51,6 +53,7 @@ ul li a{
     background-color: coral;
     padding: 8px;
     border-radius: 10px;
+    transition: blue 0.5s ease;
 }
 h1,h2,h3{
     text-align: center;
